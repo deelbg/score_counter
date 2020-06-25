@@ -1,0 +1,70 @@
+
+- display driver ------------------------------------------------ DONE
+- EEPROM HAL ---------------------------------------------------- DONE
+- players name from EEPROM -------------------------------------- DONE
+- strings for interrface from EEPROM ---------------------------- DONE
+- eeprom preparation tool --------------------------------------- DONE
+- show cursor on name edit -------------------------------------- DONE
+- display HAL --------------------------------------------------- DONE
+- i2c HAL ------------------------------------------------------- DONE
+- use own oled ssd1306 ------------------------------------------ DONE
+- reduce screen flicker on name edit ---------------------------- DONE
+- replace sprintf() --------------------------------------------- DONE
+- fix cursor in name edit mode ---------------------------------- DONE
+- settings menu on arrow up hold -------------------------------- DONE
+- add dimm display on timeout ----------------------------------- DONE
+- add language selection ---------------------------------------- DONE
+- OK button with pull down and active high ---------------------- DONE
+- use input raw for rotarry encoder ----------------------------- DONE
+- hardware debaunce for encoder --------------------------------- DONE
+- switch on off power to display by command --------------------- DONE
+- reinit and refresh display after wake up ---------------------- DONE
+- sleep on OK button hold --------------------------------------- DONE
+- sleep on timeout ---------------------------------------------- DONE
+- wakeup on OK button ------------------------------------------- DONE
+- arrows for inc or decrease score ------------------------------ DONE
+- hold button down to zero score -------------------------------- DONE
+- prepare eeprom hex file for programming ----------------------- DONE
+- clear SC code ------------------------------------------------- DONE
+- propperly handle warnings ------------------------------------- DONE
+- Watch dog ----------------------------------------------------- DONE
+- OK button on PA3 and use INT1 for wakeup ---------------------- DONE
+- IO scanned at 10 ms interval to speed up display -------------- DONE
+- reduce consumption at sleep at given encoder positions -------- DONE
+=========================== Score Counter v1.0 =======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
