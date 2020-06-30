@@ -14,3 +14,17 @@ Main features.
 * 3D printed enclosure.
 * Energy independent memory to store settings and player names.
 
+In the **/firmware** directory is located the firmware. It uses the drivers from my [SSD1306_SH1106_i2c_text_display](https://github.com/deelbg/SSD1306_SH1106_i2c_text_display) and [hal_lib_avr_cpp](https://github.com/deelbg/hal_lib_avr_cpp) repositories. 
+The device is based on a Attiny861 microcontroller.
+
+There is a makefile included. Run the folowing:
+* make - to build the project
+* clean - to delete object files
+* size - to see the used RAM and flash.
+* flash - to write the .hex file to the microcontroller. Using avrdude and a usbasp programmer.
+* eeprom - to write the eeprom.
+* fuse - to write the fuses.
+
+In the **/hardware** directory is located the hardware project for EagleCad and a KiCad export.
+
+In the **/enclosure** directory is located a FreeCad project containig the enclosure. The 3 parts are also exported in .obj files that can be directly imported in Cura and sliced for 3d printing.
