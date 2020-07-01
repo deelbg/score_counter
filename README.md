@@ -27,6 +27,7 @@ There is a makefile included. Run the folowing:
 * eeprom - to write the eeprom.
 * fuse - to write the fuses.
 
-In the **/hardware** directory is located the hardware project for EagleCad and a KiCad export.
+In the **/hardware** directory is located the hardware project for EagleCad and a KiCad export. 
+**NOTE:** A 10kOhm pullup resistor needs to be added to the OK button (the one right in the center).  
 
 In the **/enclosure** directory is located a FreeCad project containig the enclosure. The 3 parts are also exported in .obj files that can be directly imported in Cura and sliced for 3d printing.
